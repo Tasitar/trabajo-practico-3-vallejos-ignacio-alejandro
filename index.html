@@ -8,16 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">nombre</p>
-            <p class="card-text">raza</p>
-            <p class="card-text">genero</p>
-            <a href="#" class="btn btn-primary">boton ese para mostrar</a>
-    </div>
+
+<div class="container">
+    <h2>Buscador de Personajes - API Dragon Ball</h2>
+
+    <form id="formBusqueda">
+        <input type="text" id="inputBusqueda" placeholder="Buscar personaje..." />
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div id="mensajeError" style="color: red;"></div>
+
+    <div id="resultados" class="resultados"></div>
 </div>
-    
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
