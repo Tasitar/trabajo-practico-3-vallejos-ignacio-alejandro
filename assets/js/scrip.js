@@ -26,7 +26,7 @@ const cargarDatos = async (urlDragonBall) => {
     const data = await cargarDatos(urlDragonBall);
     if (data) {
         console.log("Datos obtenidos", data.items);
-        mostrarPersonaje(data.items);
+        mostrarPersonaje(data.items); 
     }
 })();
 

@@ -1,5 +1,16 @@
-.contenedor {
+/* .contenedor {
     display: flexbox;
     justify-content: center;
     justify-items: center;
+} */
+
+.contenePJ {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+@media (max-widht: 768px){
+    .contenePJ {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
