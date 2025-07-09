@@ -1,16 +1,19 @@
-/* .contenedor {
-    display: flexbox;
-    justify-content: center;
-    justify-items: center;
-} */
-
-.contenePJ {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+#botonVerMas{
+    background-color: #5466aebe ;
 }
-@media (max-widht: 768px){
-    .contenePJ {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
+
+#contenedorPadre{
+    padding-left: 10%;
+}
+
+body{
+background-image: url(../images/fondo.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.white-text-paragraph {
+    color: white;
 }
